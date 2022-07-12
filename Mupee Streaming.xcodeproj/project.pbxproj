@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7222B90A287DB979001A178A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B909287DB979001A178A /* AppDelegate.swift */; };
+		7222B90C287DB979001A178A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B90B287DB979001A178A /* SceneDelegate.swift */; };
+		7222B913287DB97A001A178A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7222B912287DB97A001A178A /* Assets.xcassets */; };
+		7222B916287DB97A001A178A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7222B914287DB97A001A178A /* LaunchScreen.storyboard */; };
+		7222B929287DBA30001A178A /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B920287DBA30001A178A /* CollectionViewTableViewCell.swift */; };
+		7222B92A287DBA30001A178A /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B921287DBA30001A178A /* HeroHeaderUIView.swift */; };
+		7222B92B287DBA30001A178A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B923287DBA30001A178A /* SearchViewController.swift */; };
+		7222B92C287DBA30001A178A /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B924287DBA30001A178A /* UpcomingViewController.swift */; };
+		7222B92D287DBA30001A178A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B925287DBA30001A178A /* HomeViewController.swift */; };
+		7222B92E287DBA30001A178A /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B926287DBA30001A178A /* DownloadsViewController.swift */; };
+		7222B930287DBA46001A178A /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B92F287DBA46001A178A /* MainTabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7222B906287DB979001A178A /* Mupee Streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mupee Streaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7222B909287DB979001A178A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7222B90B287DB979001A178A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7222B912287DB97A001A178A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7222B915287DB97A001A178A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7222B917287DB97A001A178A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7222B920287DBA30001A178A /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		7222B921287DBA30001A178A /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		7222B923287DBA30001A178A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7222B924287DBA30001A178A /* UpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		7222B925287DBA30001A178A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7222B926287DBA30001A178A /* DownloadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		7222B92F287DBA46001A178A /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7222B903287DB979001A178A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7222B8FD287DB979001A178A = {
+			isa = PBXGroup;
+			children = (
+				7222B908287DB979001A178A /* Mupee Streaming */,
+				7222B907287DB979001A178A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7222B907287DB979001A178A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7222B906287DB979001A178A /* Mupee Streaming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7222B908287DB979001A178A /* Mupee Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				7222B922287DBA30001A178A /* Controllers */,
+				7222B91D287DBA30001A178A /* Managers */,
+				7222B91E287DBA30001A178A /* Models */,
+				7222B927287DBA30001A178A /* Recources */,
+				7222B928287DBA30001A178A /* ViewModels */,
+				7222B91F287DBA30001A178A /* Views */,
+				7222B909287DB979001A178A /* AppDelegate.swift */,
+				7222B90B287DB979001A178A /* SceneDelegate.swift */,
+				7222B92F287DBA46001A178A /* MainTabBarViewController.swift */,
+				7222B912287DB97A001A178A /* Assets.xcassets */,
+				7222B914287DB97A001A178A /* LaunchScreen.storyboard */,
+				7222B917287DB97A001A178A /* Info.plist */,
+			);
+			path = "Mupee Streaming";
+			sourceTree = "<group>";
+		};
+		7222B91D287DBA30001A178A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7222B91E287DBA30001A178A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7222B91F287DBA30001A178A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7222B920287DBA30001A178A /* CollectionViewTableViewCell.swift */,
+				7222B921287DBA30001A178A /* HeroHeaderUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7222B922287DBA30001A178A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7222B923287DBA30001A178A /* SearchViewController.swift */,
+				7222B924287DBA30001A178A /* UpcomingViewController.swift */,
+				7222B925287DBA30001A178A /* HomeViewController.swift */,
+				7222B926287DBA30001A178A /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7222B927287DBA30001A178A /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		7222B928287DBA30001A178A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7222B905287DB979001A178A /* Mupee Streaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7222B91A287DB97A001A178A /* Build configuration list for PBXNativeTarget "Mupee Streaming" */;
+			buildPhases = (
+				7222B902287DB979001A178A /* Sources */,
+				7222B903287DB979001A178A /* Frameworks */,
+				7222B904287DB979001A178A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mupee Streaming";
+			productName = "Mupee Streaming";
+			productReference = 7222B906287DB979001A178A /* Mupee Streaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7222B8FE287DB979001A178A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7222B905287DB979001A178A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7222B901287DB979001A178A /* Build configuration list for PBXProject "Mupee Streaming" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7222B8FD287DB979001A178A;
+			productRefGroup = 7222B907287DB979001A178A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7222B905287DB979001A178A /* Mupee Streaming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7222B904287DB979001A178A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7222B916287DB97A001A178A /* LaunchScreen.storyboard in Resources */,
+				7222B913287DB97A001A178A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7222B902287DB979001A178A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7222B92C287DBA30001A178A /* UpcomingViewController.swift in Sources */,
+				7222B92B287DBA30001A178A /* SearchViewController.swift in Sources */,
+				7222B92E287DBA30001A178A /* DownloadsViewController.swift in Sources */,
+				7222B930287DBA46001A178A /* MainTabBarViewController.swift in Sources */,
+				7222B90A287DB979001A178A /* AppDelegate.swift in Sources */,
+				7222B92A287DBA30001A178A /* HeroHeaderUIView.swift in Sources */,
+				7222B90C287DB979001A178A /* SceneDelegate.swift in Sources */,
+				7222B92D287DBA30001A178A /* HomeViewController.swift in Sources */,
+				7222B929287DBA30001A178A /* CollectionViewTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7222B914287DB97A001A178A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7222B915287DB97A001A178A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7222B918287DB97A001A178A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7222B919287DB97A001A178A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7222B91B287DB97A001A178A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mupee Streaming/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ADA.Mupee-Streaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7222B91C287DB97A001A178A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mupee Streaming/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ADA.Mupee-Streaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7222B901287DB979001A178A /* Build configuration list for PBXProject "Mupee Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7222B918287DB97A001A178A /* Debug */,
+				7222B919287DB97A001A178A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7222B91A287DB97A001A178A /* Build configuration list for PBXNativeTarget "Mupee Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7222B91B287DB97A001A178A /* Debug */,
+				7222B91C287DB97A001A178A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7222B8FE287DB979001A178A /* Project object */;
+}
