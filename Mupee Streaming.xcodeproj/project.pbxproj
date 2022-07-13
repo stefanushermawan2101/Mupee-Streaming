@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7204187A287E646E009D1325 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72041879287E646E009D1325 /* APICaller.swift */; };
+		7204187C287E6801009D1325 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7204187B287E6801009D1325 /* Movie.swift */; };
 		7222B90A287DB979001A178A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B909287DB979001A178A /* AppDelegate.swift */; };
 		7222B90C287DB979001A178A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7222B90B287DB979001A178A /* SceneDelegate.swift */; };
 		7222B913287DB97A001A178A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7222B912287DB97A001A178A /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72041879287E646E009D1325 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		7204187B287E6801009D1325 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		7222B906287DB979001A178A /* Mupee Streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mupee Streaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7222B909287DB979001A178A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7222B90B287DB979001A178A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 		7222B91D287DBA30001A178A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				72041879287E646E009D1325 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 		7222B91E287DBA30001A178A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7204187B287E6801009D1325 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,11 +209,13 @@
 				7222B92C287DBA30001A178A /* UpcomingViewController.swift in Sources */,
 				7222B92B287DBA30001A178A /* SearchViewController.swift in Sources */,
 				7222B92E287DBA30001A178A /* DownloadsViewController.swift in Sources */,
+				7204187A287E646E009D1325 /* APICaller.swift in Sources */,
 				7222B930287DBA46001A178A /* MainTabBarViewController.swift in Sources */,
 				7222B90A287DB979001A178A /* AppDelegate.swift in Sources */,
 				7222B92A287DBA30001A178A /* HeroHeaderUIView.swift in Sources */,
 				7222B90C287DB979001A178A /* SceneDelegate.swift in Sources */,
 				7222B92D287DBA30001A178A /* HomeViewController.swift in Sources */,
+				7204187C287E6801009D1325 /* Movie.swift in Sources */,
 				7222B929287DBA30001A178A /* CollectionViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
